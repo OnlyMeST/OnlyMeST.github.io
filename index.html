@@ -1,36 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-	<Link rel="stylesheet" href="app.css">
+	<title>Saria's Blog</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>My Personal Blog</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" type="text/css" href="app.css" />
 </head>
 <body>
 	<header>
-		<h1>My Personal Blog</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Projects</a></li>
-				<li><a href="#">About Me</a></li>
-				<li><a href="#">Contact</a></li>
-			</ul>
-		</nav>
+		<h1>Welcome;</h1>
 	</header>
-	<main>
+
+	<nav>
+		<a href="#about">About</a>
+		<a href="#resume">Resume</a>
+		<a href="#projects">Projects</a>
+		<a href="#updates">Updates</a>
+	</nav>
+
+	<section id="about">
+		<h2>About Me</h2>
+
+		<p></p>
+	</section>
+
+	<section id="resume">
+		<h2>My Resume</h2>
+
 		<article>
-			<header>
-				<h2>My First Project</h2>
-				<p class="meta">Posted on January 1, 2023</p>
-			</header>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam id dui quis magna bibendum consectetur. Vivamus posuere magna vel erat tempor, vel consectetur augue rutrum. Sed non vestibulum leo, nec posuere risus. Vestibulum bibendum lacus velit, a facilisis ex sagittis eu. Suspendisse ac orci id libero tempor dictum. Sed pellentesque orci quis urna blandit sagittis. Duis blandit venenatis lacus, quis pellentesque mauris vulputate non. In facilisis lacus in orci accumsan tristique.</p>
-			<a href="#">Read More</a>
+			<h3>Education</h3>
+			<p>[Name of Institution], [Degree or Certification], [Graduation Date]</p>
+			<ul>
+				<li>[Relevant Coursework or Achievements]</li>
+				<li>[Relevant Coursework or Achievements]</li>
+				<li>[Relevant Coursework or Achievements]</li>
+			</ul>
 		</article>
-	</main>
-	<footer>
-		<p>By Saria</p>
-	</footer>
+
+		<article>
+			<h3>Work Experience</h3>
+			<p>[Name of Company], [Job Title], [Employment Dates]</p>
+			<ul>
+				<li>[Job Duty or Responsibility]</li>
+				<li>[Job Duty or Responsibility]</li>
+				<li>[Job Duty or Responsibility]</li>
+			</ul>
+		</article>
+	
+		<article>
+			<h3>Skills</h3>
+			<ul>
+				<li>[Skill]</li>
+				<li>[Skill]</li>
+				<li>[Skill]</li>
+			</ul>
+		</article>
+	</section>
+	
+	<section id="projects">
+		<h2>My Projects</h2>
+	
+		<article>
+			<h3>[Project Name]</h3>
+			<p>[Project Description]</p>
+			<pre><code>[Insert code example here]</code></pre>
+		</article>
+	
+		<article>
+			<h3>[Project Name]</h3>
+			<p>[Project Description]</p>
+			<pre><code>[Insert code example here]</code></pre>
+		</article>
+	</section>
+	
+	<section id="updates">
+		<h2>Updates</h2>
+	
+		<article>
+			<h3>[Update Title]</h3>
+			<p>[Update Description]</p>
+		</article>
+	
+		<article>
+			<h3>[Update Title]</h3>
+			<p>[Update Description]</p>
+		</article>
+	</section>
 </body>
 </html>
