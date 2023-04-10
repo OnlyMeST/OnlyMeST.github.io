@@ -10,6 +10,7 @@ body {
   background-color: #000000;
   color: #fff;
   font-family: Arial, sans-serif;
+  overflow: hidden;
 }
 
 .container {
