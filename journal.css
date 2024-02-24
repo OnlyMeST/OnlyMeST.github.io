@@ -137,6 +137,7 @@ body {
   }
   
 .content{
+    margin-top: 5%;
     font-size: 0;
     line-height: 0;
     word-spacing: -.31em;
